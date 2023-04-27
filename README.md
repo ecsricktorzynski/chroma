@@ -87,6 +87,13 @@ Chroma is a rapidly developing project. We welcome PR contributors and ideas for
 - [Review the roadmap and contribute your ideas](https://github.com/chroma-core/chroma/wiki/Roadmap)
 - [Grab an issue and open a PR](https://github.com/chroma-core/chroma/issues)
 
+## Docker Client/Server
+To run Chroma in client server mode, run the docker container:
+```
+docker-compose up -d --build
+```
+Then update your chroma client to point at the docker container. Default: localhost:8000
+
 ## License
 
 [Apache 2.0](./LICENSE)
